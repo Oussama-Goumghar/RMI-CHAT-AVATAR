@@ -1,0 +1,72 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api 'org.apache.commons:commons-math3:3.6.1'
+    implementation 'com.google.guava:guava:23.0'
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
+
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources { 
+            srcDirs = ['src/main/resources']
+        }
+    }
+}
+
+jar {
+		baseName ''
+}
+
+task clientJar(type: Jar) {
+    from(sourceSets.main.output) {
+        include 'Client/**/*.class'
+        include 'Common/**/*.class'
+    }
+    baseName 'Chat_Client'
+    manifest {
+        attributes(
+            'Implementation-Title': 'Chat_client',
+            'Main-Class': 'Client.Client'
+        )
+    }
+    from { 
+        configurations.compile.collect { 
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+    with jar
+}
+tasks.jar.dependsOn(clientJar)
+
+task serverJar(type: Jar) {  
+    from(sourceSets.main.output) {
+        include 'Server/**/*.class'
+        include 'Common/**/*.class'
+    }
+    baseName 'Chat_Server'
+    manifest {
+        attributes(
+            'Implementation-Title': 'Chat_server',
+            'Main-Class': 'Server.Main'
+        )
+    }
+    from { 
+        configurations.compile.collect { 
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+    with jar
+}
+tasks.jar.dependsOn(serverJar)

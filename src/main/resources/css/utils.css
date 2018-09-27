@@ -1,0 +1,226 @@
+#borderPane{
+    -fx-background-image: url('../image/black.jpg');
+    -fx-background-size: stretch;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+#message-scroll-pane{
+    -fx-scale-y: 0.98;
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+}
+
+#contact-scroll-pane{
+    -fx-max-width: 170;
+    -fx-min-width: 170;
+}
+
+#send-button{
+    -fx-graphic: url('../image/send.png');
+    -fx-scale-x: 0.45;
+    -fx-scale-y: 0.45;
+	-fx-effect: dropshadow(gaussian, white, 10, 0.7, 0, 0); 
+    -fx-translate-x: -40;
+    -fx-translate-y: -10;
+}
+
+#send-button:hover{
+	-fx-effect: innershadow(gaussian, grey, 10, 0.4, 0, 0); 
+}
+
+#send-text{
+    -fx-min-width: 420;
+    -fx-max-width: 420;
+    -fx-min-height: 45;
+    -fx-max-height: 45;
+    -fx-translate-y: 10;
+    -fx-translate-x: 5;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";     
+}
+
+#sendbox-background {
+    -fx-background-image: url('../image/grey.jpg');
+    -fx-background-size: stretch;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#chat-top{
+    -fx-background-image: url('../image/black.jpg');
+    -fx-background-size: stretch;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-min-height: 150;
+    -fx-max-height: 150;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+  	-fx-effect: dropshadow(gaussian, black, 15, 0.8, 0, 0);
+}
+
+#avatar-top{
+    -fx-max-height: 20;
+    -fx-min-height: 20;
+    -fx-max-width: 20;
+    -fx-min-width: 20;
+    -fx-scale-x: 0.7;
+    -fx-scale-y: 0.7;
+}
+
+#name-top{
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black"; 
+    -fx-text-fill: lightgray;
+    -fx-translate-y: 32;
+}
+
+#quote-top{
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black"; 
+    -fx-text-fill: lightgray;
+    -fx-translate-y: 45;
+}
+
+#grid-pane {
+    -fx-background-image: url('../image/grey.jpg');
+    -fx-background-size: stretch;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-max-width: 650 ;
+    -fx-max-height: 400  ;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+    -fx-alignment: center;
+    -fx-translate-y: 10;
+  	-fx-effect: dropshadow(gaussian, black, 15, 0.8, 0, 0);
+}
+
+#image{
+    -fx-translate-x: 50;
+}
+
+#title-label{
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-translate-x: 100; 
+}
+
+#label{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+}
+
+#text-field{
+    -fx-translate-x: -20;
+    -fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;
+}
+
+#buttonRight{
+    -fx-graphic: url('../image/next.png');
+    -fx-scale-x: 0.7;
+    -fx-scale-y: 0.7;
+	-fx-effect: dropshadow(gaussian, white, 10, 0.7, 0, 0); 
+}
+
+#buttonLeft{
+    -fx-graphic: url('../image/previous.png');
+    -fx-scale-x: 0.7;
+    -fx-scale-y: 0.7;
+	-fx-effect: dropshadow(gaussian, white, 10, 0.7, 0, 0); 
+}
+
+#buttonSubmit{
+    -fx-graphic: url('../image/login.png');   
+    -fx-scale-x: 0.5;
+    -fx-scale-y: 0.5;
+    -fx-translate-x: 450;
+    -fx-translate-y: -10;
+	-fx-effect: dropshadow(gaussian, white, 10, 0.7, 0, 0); 
+}
+
+#buttonSubmit:hover{
+	-fx-effect: innershadow(gaussian, grey, 10, 0.4, 0, 0); 
+}
+
+#buttonRight:hover{
+	-fx-effect: innershadow(gaussian, grey, 10, 0.4, 0, 0); 
+}
+
+#buttonLeft:hover{
+	-fx-effect: innershadow(gaussian, grey, 10, 0.4, 0, 0); 
+}
+
+#hbox{
+    -fx-spacing: 15;
+    -fx-translate-x: -25;
+}
+
+#contact-grid{
+    -fx-background-image: url('../image/grey.jpg');
+    -fx-background-size: stretch;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-max-width: 160;
+    -fx-min-width: 160;
+    -fx-max-height: 160;
+    -fx-min-height: 160;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+#contact-image{
+    -fx-translate-x: -35;    
+    -fx-translate-y: -40;
+    -fx-scale-x: 0.6;
+    -fx-scale-y: 0.6;  
+  	-fx-effect: dropshadow(gaussian, grey, 10, 0.3, 0, 0);
+}
+
+#contact-image:hover{
+    -fx-effect: innershadow(gaussian, white, 10, 0.4, 0, 0); 
+}
+
+#contact-text{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-translate-x: 5;
+    -fx-translate-y: 5;
+}
+
+#received-message{
+    -fx-background-image: url('../image/received.png');
+    -fx-max-width: 296;
+    -fx-min-width: 296;
+    -fx-max-height: 69;
+    -fx-min-height: 69;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-wrap-text: true;
+    -fx-alignment:center;
+}
+
+#sent-message{ 
+    -fx-background-image: url('../image/sent.png');
+    -fx-max-width: 296;
+    -fx-min-width: 296;
+    -fx-max-height: 69;
+    -fx-min-height: 69;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-wrap-text: true;
+    -fx-alignment:center;
+    -fx-translate-x: 300;
+    -fx-text-fill: white;
+}
