@@ -1,4 +1,4 @@
-#Chat
+# Chat
 
 A simple application useful for exploring some **Java** code feautures. The idea of this repository is to be a full working point of reference and provides code solutions to beginners and not only them on some tricky points on **developing** **Java** applications, such as:
 
@@ -6,7 +6,7 @@ A simple application useful for exploring some **Java** code feautures. The idea
 * **JavaFX** Gui programming
 * **Gradle** project setup 
 
-##How it works
+## How it works
 
 1. Build the project.
 
@@ -20,13 +20,13 @@ A simple application useful for exploring some **Java** code feautures. The idea
 
     `java -jar build/libs/Chat_Client.jar`
 
-##Licence
-###THE BEER-WARE LICENSE
+## Licence
+### THE BEER-WARE LICENSE
 
 As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return.
 VaporUser, 2018
 
-###Credits
+### Credits
 
 <a href="https://www.freepik.com/free-vector/people-wearing-accesories-avatar-collection_1176016.htm">Designed by Kubanek</a>
 <a href='https://www.freepik.com/free-vector/different-designs-of-web-buttons_832143.htm'>Designed by Freepik</a>
@@ -34,7 +34,7 @@ VaporUser, 2018
 <a href='https://www.freepik.com/free-vector/gray-texture-background_1076969.htm'>Designed by Freepik</a> <a href="https://www.Vecteezy.com">www.Vecteezy.com</a>
 
 
-##Screenshots
+## Screenshots
 <img src="screenshots/login.png" width = "700"/>
 
 <img src="screenshots/chatting.png" width = "800"/>
