@@ -1,7 +1,7 @@
-package Gui.Utils;
+package Client.Gui.Utils;
 
 import java.lang.Thread;
-import Gui.Screen.Chat;
+import Client.Gui.Screen.Chat;
 import Common.User;
 
 public class UpdateOnlineTask extends Thread{

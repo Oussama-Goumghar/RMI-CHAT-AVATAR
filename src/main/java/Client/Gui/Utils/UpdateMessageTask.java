@@ -1,8 +1,8 @@
-package Gui.Utils;
+package Client.Gui.Utils;
 
 import java.lang.Thread;
-import Gui.Screen.Chat;
-import Utils.Message;
+import Client.Gui.Screen.Chat;
+import Client.Utils.Message;
 
 public class UpdateMessageTask extends Thread{
     private Chat chat;

@@ -1,9 +1,9 @@
-package Gui.Utils;
+package Client.Gui.Utils;
 
-import Gui.Utils.LimitedTextField;
-import Gui.Screen.Chat;
-import Logic.ClientApp;
-import Utils.Message;
+import Client.Gui.Utils.LimitedTextField;
+import Client.Gui.Screen.Chat;
+import Client.Logic.ClientApp;
+import Client.Utils.Message;
 import javafx.scene.input.MouseEvent;
 import javafx.event.EventHandler;
 

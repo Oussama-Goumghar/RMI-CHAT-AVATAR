@@ -1,13 +1,11 @@
-package Gui;
+package Client.Gui;
 
-import Logic.ClientApp;
-import Gui.Screen.Login;
-import Gui.Screen.Chat;
-import Gui.Utils.SubmitEvent;
-
-import javafx.scene.Scene;
-import javafx.stage.Stage;
+import Client.Gui.Screen.Chat;
+import Client.Gui.Screen.Login;
+import Client.Gui.Utils.SubmitEvent;
+import Client.Logic.ClientApp;
 import javafx.application.Application;
+import javafx.stage.Stage;
 
 public class ClientGui extends Application {
 

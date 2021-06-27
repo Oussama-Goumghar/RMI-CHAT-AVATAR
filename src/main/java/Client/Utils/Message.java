@@ -1,4 +1,4 @@
-package Utils;
+package Client.Utils;
 
 public class Message{
     private String message;

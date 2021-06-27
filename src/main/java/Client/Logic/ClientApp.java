@@ -1,9 +1,9 @@
-package Logic;
+package Client.Logic;
 
 import Common.User;
 import Common.ServerInterface;
-import Utils.Message;
-import Gui.Screen.Chat;
+import Client.Utils.Message;
+import Client.Gui.Screen.Chat;
 
 import java.util.HashMap;
 import java.util.ArrayList;

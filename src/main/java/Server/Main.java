@@ -1,6 +1,6 @@
 package Server;
 
-import Network.ServerRMI;
+import Server.Network.ServerRMI;
 
 public class Main {
 	

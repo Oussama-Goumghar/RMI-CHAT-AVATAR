@@ -1,4 +1,4 @@
-package Network;
+package Server.Network;
 
 import java.rmi.*;
 import java.rmi.registry.*;

@@ -1,9 +1,9 @@
-package Gui.Utils;
+package Client.Gui.Utils;
 
-import Gui.Screen.Chat;
-import Gui.Screen.Login;
-import Logic.ClientApp;
-import Network.ClientRMI;
+import Client.Gui.Screen.Chat;
+import Client.Gui.Screen.Login;
+import Client.Logic.ClientApp;
+import Client.Network.ClientRMI;
 
 import javafx.stage.Stage;
 import javafx.scene.input.MouseEvent;

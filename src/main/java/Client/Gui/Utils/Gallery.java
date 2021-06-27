@@ -1,6 +1,6 @@
-package Gui.Utils;
+package Client.Gui.Utils;
 
-import Gui.Utils.PathImage;
+import Client.Gui.Utils.PathImage;
 
 import java.util.LinkedList;
 import java.util.ListIterator;

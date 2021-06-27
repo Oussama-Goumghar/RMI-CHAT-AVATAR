@@ -1,8 +1,8 @@
-package Gui.Screen;
+package Client.Gui.Screen;
 
-import Logic.ClientApp;
-import Gui.Utils.Gallery;
-import Gui.Utils.LimitedTextField;
+import Client.Logic.ClientApp;
+import Client.Gui.Utils.Gallery;
+import Client.Gui.Utils.LimitedTextField;
 
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;

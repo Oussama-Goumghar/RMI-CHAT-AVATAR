@@ -1,15 +1,15 @@
-package Gui.Screen;
+package Client.Gui.Screen;
 
 import Common.User;
-import Logic.ClientApp;
-import Utils.Message;
-import Gui.Utils.PathImage;
-import Gui.Utils.LimitedTextField;
-import Gui.Utils.UpdateOnlineTask;
-import Gui.Utils.UpdateMessageTask;
-import Gui.Utils.SendClickEvent;
-import Gui.Utils.SendEnterEvent;
-import Gui.Utils.ClickAvatarEvent;
+import Client.Logic.ClientApp;
+import Client.Utils.Message;
+import Client.Gui.Utils.PathImage;
+import Client.Gui.Utils.LimitedTextField;
+import Client.Gui.Utils.UpdateOnlineTask;
+import Client.Gui.Utils.UpdateMessageTask;
+import Client.Gui.Utils.SendClickEvent;
+import Client.Gui.Utils.SendEnterEvent;
+import Client.Gui.Utils.ClickAvatarEvent;
 import javafx.scene.image.ImageView;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Button;

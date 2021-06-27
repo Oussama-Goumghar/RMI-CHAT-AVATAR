@@ -1,7 +1,8 @@
-package Gui.Utils;
+package Client.Gui.Utils;
 
-import Gui.Screen.Chat;
-import Logic.ClientApp;
+import Client.Gui.Screen.Chat;
+
+import Client.Logic.ClientApp;
 import Common.User;
 import javafx.scene.input.MouseEvent;
 import javafx.event.EventHandler;

@@ -1,8 +1,8 @@
 package Client;
 
 import Common.ServerInterface;
-import Logic.ClientApp;
-import Gui.ClientGui;
+import Client.Logic.ClientApp;
+import Client.Gui.ClientGui;
 
 public class Client {
 

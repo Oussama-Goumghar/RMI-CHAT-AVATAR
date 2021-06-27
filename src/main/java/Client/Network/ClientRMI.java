@@ -1,9 +1,9 @@
-package Network;
+package Client.Network;
 
 import Common.ClientInterface;
 import Common.ServerInterface;
 import Common.User;
-import Logic.ClientApp;
+import Client.Logic.ClientApp;
 
 import java.rmi.*;
 import java.rmi.registry.*;
